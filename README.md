@@ -4,9 +4,9 @@ of coins does not matter.
 
 
 Input
-• The first line will contain an integer, n, the required sum.
-• The second line will contain an integer, c, the number of coins in the monetary system.
-• The third and final line will contain c space-separated integers, the denominations of
+The first line will contain an integer, n, the required sum.
+The second line will contain an integer, c, the number of coins in the monetary system.
+The third and final line will contain c space-separated integers, the denominations of
 those coins.
 
 Output
