@@ -9,9 +9,9 @@ def calc(d_list, req_sum, i):
     return calc(d_list, req_sum - d_list[i], i) + calc(d_list, req_sum, i - 1) 
         
         
-req_sum = int(input())
-num = int(input())
-vals = input().split()
+req_sum = int(input("Enter required sum: "))
+num = int(input("Enter number of coins: "))
+vals = input("Enter denominations of coins: ").split()
 d_list = []
 for i in vals:
     d_list.append(int(i))
