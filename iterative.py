@@ -33,9 +33,9 @@ def calc(req_sum, d_list):
     print(arr[rows-1][cols-1])
 #main
 if __name__ == "__main__":        
-    req_sum = int(input())
-    numCoins = int(input())
-    vals = input().split()
+    req_sum = int(input("Enter required sum: "))
+    numCoins = int(input("Enter number of coins: "))
+    vals = input("Enter denominations of coins: ").split()
     d_list = []
     for i in vals:
         d_list.append(int(i))
